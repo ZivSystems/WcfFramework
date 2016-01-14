@@ -1,0 +1,8 @@
+D:\VS2015TeamRepositories\WcfEverywhere\WcfEverywhere\Sample.DTO\bin\Debug\Sample.DTO.dll
+D:\VS2015TeamRepositories\WcfEverywhere\WcfEverywhere\Sample.DTO\bin\Debug\Sample.DTO.pdb
+D:\VS2015TeamRepositories\WcfEverywhere\WcfEverywhere\Sample.DTO\obj\Debug\Sample.DTO.dll
+D:\VS2015TeamRepositories\WcfEverywhere\WcfEverywhere\Sample.DTO\obj\Debug\Sample.DTO.pdb
+D:\ItielbeeriTfsWf\ZivDotNetTools\WebServices\DEV\Sample.DTO\bin\Debug\Sample.DTO.dll
+D:\ItielbeeriTfsWf\ZivDotNetTools\WebServices\DEV\Sample.DTO\bin\Debug\Sample.DTO.pdb
+D:\ItielbeeriTfsWf\ZivDotNetTools\WebServices\DEV\Sample.DTO\obj\Debug\Sample.DTO.dll
+D:\ItielbeeriTfsWf\ZivDotNetTools\WebServices\DEV\Sample.DTO\obj\Debug\Sample.DTO.pdb

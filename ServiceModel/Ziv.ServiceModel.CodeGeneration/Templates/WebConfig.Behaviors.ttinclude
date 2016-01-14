@@ -1,0 +1,19 @@
+﻿			 <serviceBehaviors>
+<# 
+    foreach (var serviceBehavior in parameters.ServiceBehaviors)
+    {	 
+#>
+					<#= serviceBehavior.Content #>
+<# } #>
+			 </serviceBehaviors>
+			 <endpointBehaviors>
+<# 
+    foreach (var endpointBehavior in parameters.EndpointBehaviors)
+    {	 
+#>
+					<#= endpointBehavior.Content #>
+			
+
+<# } #>
+
+        </endpointBehaviors>

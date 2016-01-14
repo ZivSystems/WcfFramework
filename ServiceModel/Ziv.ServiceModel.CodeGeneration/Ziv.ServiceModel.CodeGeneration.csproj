@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FC157327-4DB2-419D-A0FE-0BE0E6E84E8A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ziv.ServiceModel.CodeGeneration</RootNamespace>
+    <AssemblyName>Ziv.ServiceModel.CodeGeneration</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigContractInterfcaeData.cs" />
+    <Compile Include="ConfigEndpointBehaviorData.cs" />
+    <Compile Include="ConfigEnpointData.cs" />
+    <Compile Include="ConfigExtensions.cs" />
+    <Compile Include="ConfigGenerationData.cs" />
+    <Compile Include="ConfigGenertionUtils.cs" />
+    <Compile Include="ConfigServiceBehaviorData.cs" />
+    <Compile Include="ConfigServiceData.cs" />
+    <Compile Include="ConfigurationStrategy.cs" />
+    <Compile Include="HttpConfigurationStrategy.cs" />
+    <Compile Include="IConfigurationStrategy.cs" />
+    <Compile Include="OperationExtensions.cs" />
+    <Compile Include="OperationsCodeGenerationUtils.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ziv.ServiceModel\Ziv.ServiceModel.csproj">
+      <Project>{42B956A3-0351-4E7A-A21D-AF825D449858}</Project>
+      <Name>Ziv.ServiceModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Templates\WebConfig.Behaviors.ttinclude" />
+    <None Include="Templates\WebConfig.ServiceActivisions.ttinclude">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Templates\WebConfig.Services.ttinclude">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Templates\WebConfig.ttinclude" />
+    <None Include="Templates\ServiceContracts.ttinclude" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Templates\Services.ttinclude">
+      <LastGenOutput>Services1.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Templates\WebConfig.ServiceModel.ttinclude">
+      <LastGenOutput>WebConfig.ServiceModel.config</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

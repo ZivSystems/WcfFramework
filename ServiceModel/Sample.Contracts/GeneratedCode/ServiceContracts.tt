@@ -1,0 +1,5 @@
+﻿<#
+    Ziv.ServiceModel.CodeGeneration.OperationsCodeGenerationUtils.WsdlPortTypeNamespace = "http://sample.com";
+#>
+<#@ assembly name="$(SolutionDir)\Sample.Operations\bin\Debug\Sample.Operations.dll" #>
+<#@ include file="$(SolutionDir)\Ziv.ServiceModel.CodeGeneration\Templates\ServiceContracts.ttinclude" #>

@@ -1,0 +1,15 @@
+D:\VS2015TeamRepositories\WcfEverywhere\WcfEverywhere\Ziv.ServiceModel.CodeGeneration\bin\Debug\Ziv.ServiceModel.CodeGeneration.dll
+D:\VS2015TeamRepositories\WcfEverywhere\WcfEverywhere\Ziv.ServiceModel.CodeGeneration\bin\Debug\Ziv.ServiceModel.CodeGeneration.pdb
+D:\VS2015TeamRepositories\WcfEverywhere\WcfEverywhere\Ziv.ServiceModel.CodeGeneration\bin\Debug\Ziv.ServiceModel.dll
+D:\VS2015TeamRepositories\WcfEverywhere\WcfEverywhere\Ziv.ServiceModel.CodeGeneration\bin\Debug\Ziv.ServiceModel.pdb
+D:\VS2015TeamRepositories\WcfEverywhere\WcfEverywhere\Ziv.ServiceModel.CodeGeneration\obj\Debug\Ziv.ServiceModel.CodeGeneration.csprojResolveAssemblyReference.cache
+D:\VS2015TeamRepositories\WcfEverywhere\WcfEverywhere\Ziv.ServiceModel.CodeGeneration\obj\Debug\Ziv.ServiceModel.CodeGeneration.dll
+D:\VS2015TeamRepositories\WcfEverywhere\WcfEverywhere\Ziv.ServiceModel.CodeGeneration\obj\Debug\Ziv.ServiceModel.CodeGeneration.pdb
+D:\VS2015TeamRepositories\WcfEverywhere\WcfEverywhere\Ziv.ServiceModel.CodeGeneration\bin\Debug\Microsoft.Practices.Unity.dll
+D:\ItielbeeriTfsWf\ZivDotNetTools\WebServices\DEV\Ziv.ServiceModel.CodeGeneration\bin\Debug\Ziv.ServiceModel.CodeGeneration.dll
+D:\ItielbeeriTfsWf\ZivDotNetTools\WebServices\DEV\Ziv.ServiceModel.CodeGeneration\bin\Debug\Ziv.ServiceModel.CodeGeneration.pdb
+D:\ItielbeeriTfsWf\ZivDotNetTools\WebServices\DEV\Ziv.ServiceModel.CodeGeneration\bin\Debug\Ziv.ServiceModel.dll
+D:\ItielbeeriTfsWf\ZivDotNetTools\WebServices\DEV\Ziv.ServiceModel.CodeGeneration\bin\Debug\Ziv.ServiceModel.pdb
+D:\ItielbeeriTfsWf\ZivDotNetTools\WebServices\DEV\Ziv.ServiceModel.CodeGeneration\obj\Debug\Ziv.ServiceModel.CodeGeneration.csprojResolveAssemblyReference.cache
+D:\ItielbeeriTfsWf\ZivDotNetTools\WebServices\DEV\Ziv.ServiceModel.CodeGeneration\obj\Debug\Ziv.ServiceModel.CodeGeneration.dll
+D:\ItielbeeriTfsWf\ZivDotNetTools\WebServices\DEV\Ziv.ServiceModel.CodeGeneration\obj\Debug\Ziv.ServiceModel.CodeGeneration.pdb

@@ -1,0 +1,11 @@
+﻿			 <serviceActivations>
+<# 
+    foreach (var classData in parameters.Services)
+    {	 
+#>
+				 <add 
+					service="<#= classData.ServiceType.FullName#>"
+					relativeAddress="<#= classData.RelativeAddress #>"
+            factory="Ziv.ServiceModel.Activation.DependencyInjectionServiceHostFactory"  />
+            <# } #>
+			 </serviceActivations>

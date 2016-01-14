@@ -1,0 +1,17 @@
+﻿<# 
+    foreach (var classData in parameters.Services)
+    {
+#>
+<service name="<#=  classData.ServiceType.FullName  #>" <# if (!string.IsNullOrEmpty(classData.BehaviorName))
+                {#>behaviorConfiguration="<#= classData.BehaviorName #>"<#}#>>
+<#
+		foreach (var endpoint in classData.Endpoints)
+		{
+#>
+                <endpoint address="<#=endpoint.Address#>"
+                          binding="<#=endpoint.Binding#>"
+                          contract="<#=endpoint.Contract#>" />
+
+  <# } #>
+        </service>
+  <# } #>

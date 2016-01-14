@@ -1,0 +1,9 @@
+﻿<#@ output extension="config" #>
+<#@ assembly name="System.Xml" #>
+<#@ assembly name="System.Xml.Linq" #>
+<#@ assembly name="$(TargetDir)\Ziv.ServiceModel.CodeGeneration.dll" #>
+<#@ import namespace="Ziv.ServiceModel.CodeGeneration" #>
+
+<configuration>
+<#@ include file="WebConfig.ServiceModel.ttinclude" #>
+</configuration>

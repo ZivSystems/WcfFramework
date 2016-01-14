@@ -1,0 +1,17 @@
+﻿<#@ output extension="config" #>
+<#@ assembly name="System.Xml" #>
+<#@ assembly name="System.Xml.Linq" #>
+<#@ assembly name="$(TargetDir)\Ziv.ServiceModel.CodeGeneration.dll" #>
+<#@ import namespace="Ziv.ServiceModel.CodeGeneration" #>
+
+	 <system.serviceModel>
+		 <serviceHostingEnvironment >
+<#@ include file="WebConfig.ServiceActivisions.ttinclude" #>
+		 </serviceHostingEnvironment>
+		 <services>
+<#@ include file="WebConfig.Services.ttinclude" #>
+		 </services>
+		 <behaviors>
+<#@ include file="WebConfig.Behaviors.ttinclude" #>
+		 </behaviors>
+	 </system.serviceModel>

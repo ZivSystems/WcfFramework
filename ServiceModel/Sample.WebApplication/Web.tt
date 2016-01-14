@@ -1,0 +1,5 @@
+﻿<#@ assembly name="$(SolutionDir)\Sample.Services\bin\Debug\Sample.Services.dll" #>
+<#
+	var parameters= new ConfigGenerationData(new []{".*"}, ConfigurationStrategy.WsHttpWithMex);
+#>
+<#@ include file="$(SolutionDir)\Ziv.ServiceModel.CodeGeneration\Templates\WebConfig.ttinclude" #>
